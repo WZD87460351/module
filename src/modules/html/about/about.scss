@@ -1,0 +1,15 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.about{
+	display: flex;
+	h1{
+		color: $test-color;
+	}
+	.box{
+		height: 200px;
+		width: 200px;
+		background: green;
+		@include border-left-radius($border-radius-small);
+	}
+}

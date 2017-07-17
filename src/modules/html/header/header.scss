@@ -1,0 +1,25 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#header{
+	background: pink;
+	.logo{
+		display: block;
+		height: 149px;
+		width: 198px;
+		background: url(../../images/li3.jpg) no-repeat;
+		h1{
+			text-indent: -2000px;
+		}
+	}
+	.links{
+		li{
+			float: left;
+			margin-right: 5px;
+			a{
+				color: $test-color;
+			}
+		}
+	}
+}
+	
